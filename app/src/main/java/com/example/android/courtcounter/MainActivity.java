@@ -100,10 +100,11 @@ public class MainActivity extends AppCompatActivity {
      * Displays score 0 booth team.
      */
     public void ResetScore(View v) {
-        scoreTeamB = 0;
-        displayForTeamB(scoreTeamB);
+
         scoreTeamA = 0;
+        scoreTeamB = 0;
         displayForTeamA(scoreTeamA);
+        displayForTeamB(scoreTeamB);
     }
 
 }
